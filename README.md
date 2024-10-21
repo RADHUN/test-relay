@@ -1,0 +1,3 @@
+Testing the Relay with Raspberry Pi
+This project provides a Python script to test whether the relay connected to the Raspberry Pi is functioning correctly. The code controls the GPIO pin used to activate the relay, toggling it on and off to check the relay's response. When the script runs, you should hear a clicking sound from the relay, indicating it is switching states (ON/OFF). If the relay does not click, verify the wiring, GPIO pin configuration, and power connections. This test ensures the relay is working and can be controlled through the Raspberry Pi before integrating it into larger projects.
+By changing the time inside each bracket you can select which relay you need to turn on for a particular time .
